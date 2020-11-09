@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 414px;
+    justify-content: center;
+}
+
+#location {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 414px;
+    background-color: #eaeaea;
+    justify-content: center;
+}
+
+#location p {
+    font-family: Roboto, Helvetica, serif;
+    font-weight: bold;
+    background-color: red;
+}
+
+#location img {
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+
+}
+
+#explore {
+    background-color: #f6f6f6;
+    font-family: Roboto, Helvetica, serif;
+    font-weight: bold;
+    width: 414px;
+    text-align: center;
+}
+
+#explore p{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#explore div {
+    color: white;
+    background: linear-gradient(173deg, #df6fda 50%, #a25bdb 100%);
+    border-radius: 90px;
+    width: 257px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 77.5px;
+    margin-bottom: 53px;
+}
+
+#explore div p{
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+#how-it-works {
+    background-color: red;
+    width: 414px;
+}
+
+#how-it-works article {
+    position: static;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 90px;
+    width: 350px;
+    height: 75px;
+    margin: 32px;
+    z-index: 1;
+}
+
+#how-it-works div {
+    left: 100px;
+    top: 100px;
+    position: relative;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 180px;
+    width: 25px;
+    height: 25px;
+}
+
+#restaurants {
+    background-color: orange;
+    width: 414px;
+}
+
+#restaurants img {
+    width: 75%;
+    background-color: purple;
+    margin-left: 51.75px;
+}
+
+.crop {
+    width: 150px;
+    /* width of container */
+    height: 150px;
+    /* height of container */
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.crop img {
+    margin: -10px 0px 0px -180px;
+}
+
+
+footer {
+    background-color: #353535;
+    width: 414px;
+}
+
+footer p {
+    font-family: Shrikhand;
+}
+
+/*
+@media screen and (max-width: 1024px) {
+    Landscape style changes
+}
+iphone width
+@media screen and (max-width: 414px) {
+    Portrait to mobile style changes 
+}*/
